@@ -9,18 +9,18 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Piotr Fijałkowski Photo</title>
+    <title>StorkDesign</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
-    <link href="css/ekko-lightbox.css" rel="stylesheet">
+    <link href="custom.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&subset=latin-ext" rel="stylesheet">
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -31,285 +31,507 @@
 
 </head>
 
-<body>
-
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
     <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand">
-                <a href="#top" onclick=$("#menu-close").click();>Piotr Fijałkowski</a>
-            </li>
-            <li>
-                <a href="#top" onclick=$("#menu-close").click();>Home</a>
-            </li>
-            <li>
-                <a href="#about" onclick=$("#menu-close").click();>O mnie</a>
-            </li>
-            <li>
-                <a href="#portfolio" onclick=$("#menu-close").click();>Portfolio</a>
-            </li>
-            <li>
-                <a href="#contact" onclick=$("#menu-close").click();>Kontakt</a>
-            </li>
-        </ul>
-    </nav>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#home"></a>
+           <button type="button" class="navbar-toggle" data-toggle="collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
 
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#home">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="#serv">Services</a></li>
+        <li><a href="#about">About us</a></li>
+        <li><a href="#cont">Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div id="home"></div>
     <!-- Header -->
-    <header id="top" class="header">
-        <div class="text-vertical-center">
-            <h1>Piotr Fijałkowski</h1><br>
-            <img src="img/fotico.png" alt="">
-            <h3 class="up0">Photography</h3>
-            <br><br><br>
-            <a href="#about" class="btn btn-dark btn-lg">Portfolio</a>
-            <a href="https://www.instagram.com/p.f.photo/" class="btn btn-dark btn-lg">Instagram</a>
+    <div class="parallax-window" data-parallax="scroll" data-image-src="img/jumbo.jpg">
+          <header id="top" class="header">
+          <div class="container">
+              <img src="img/logo.png" alt="" class="logo">
+          <div class="row">
+              <div class="col-md-12">
+                  <div class="sol">
+                      <img src="img/stroke.png" alt="" class="floatL"><h1><span style="font-weight: 300;">We ARE a growing <br>Digital agency that <br>provides the BEST <span style="color: #f3e61e;">SOLUTIONS</span></span>
+</h1>
+                 <div id="change_navbar"></div>
+                  </div>
+              </div>
+          </div>
         </div>
-    </header>
+    </header> 
+    </div>
+    
+    
+ <div class="about">
+     <div class="container">
+         <div class="col-md-7">
+             <h1><b>Passionate developers team</b></h1><br><br>
+             <p><span style="font-size: 16px">Duis a pharetra sapien. Quisque commodo pellentesque nisl, non mattis ante sagittis fringilla. Nunc eu elementum purus. In hac habitasse platea dictumst. Mauris elit nulla, suscipit a dignissim eget, commodo nec est. Vivamus faucibus scelerisque porta. Phasellus nec convallis diam. Praesent porta orci at hendrerit condimentum. Donec egestas luctus purus ac pulvinar. Donec in interdum sem. Nullam at tellus im perdiet, pulvinar sem cursus, interdum elit. Vestibulum eget condimentum odio. Nunc iaculis sollicitudin quam, a bibendum risus congue ut.Curabitur dignissim cursus tellus ac pretium. In neque ipsum, ultrices in viverra sed, finibus vitae eros. Phasellus lacinia ex elit. Maecenas lectus ipsum, volutpat eu enim et, varius faucibus mi</span></p>
+         </div>
+         
+         <div class="col-md-1"></div>
+         <div class="col-md-4 hidden-xs hidden-sm">
+             <div class="numb"><span style="font-size: 56px; float: left; margin-right: 35px; margin-top: -10px;"><b>+<span class="counter" data-count="40">0</span></b></span> <span style="font-size: 30px; line-height: 30px;"><b>Design</b> <br>&nbsp;&nbsp; Crafted</span></div><br>
+             <div class="numb"><span style="font-size: 56px; float: left; margin-right: 35px; margin-top: -10px;"><b>+<span class="counter" data-count="16">0</span></b></span> <span style="font-size: 30px; line-height: 30px;"><b>Websites</b> <br>&nbsp; Launched</span></div><br>
+             <div class="numb"><span style="font-size: 56px; float: left; margin-right: 35px; margin-top: -10px;"><b>+<span class="counter" data-count="99">0</span></b></span> <span style="font-size: 30px; line-height: 30px;"><b>Cups</b> <br>&nbsp;&nbsp; Of Coffe</span></div>
 
-    <!-- About -->
-    <section id="about" class="about">
+         </div>
+     </div>
+ </div>
+  <div class="services">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-3 col-sm-12">
+              <h1><b><span style="font-weight:900;">Our services</span></b></h1>
+              </div>
+              <div class="col-md-3 col-sm-4">
+                  <h2><b>Digital</b></h2><br>
+                  Landing pages <br>
+                  Responsive web design <br>
+                  Websites with CMS <br>
+                  Ecommerce <br>
+                  Web design <br>
+                  App design
+              </div>
+              <div class="col-md-3 col-sm-4">
+                  <h2><b>Graphic Design</b></h2><br>
+                  Branding <br>
+                  Banners <br>
+                  Illustrations <br>
+                  Digital art <br>
+                  
+              </div>
+              <div class="col-md-3 col-sm-4"><h2><b>Print</b></h2><br>
+                  Brouchures <br>
+                  Flyers <br>
+                  Posters <br>
+                  Catalogues <br>
+                  Business cards <br>
+                  </div>
+          </div>
+      </div>
+  </div>
+  <div class="parallax-window newlet" data-parallax="scroll" data-image-src="img/news.jpg">
+ <div class="container">
+      <div class="news">
+      
+         <div class="newu">
+          <center>
+              <h1><span style="font-weight: 300;">SIGN UP TO OUR NEWSLETTER</span></h1>
+              <input type="text" class="newsletter" placeholder="Please enter email address">
+              <input type="submit" class="sign" value="Sign up">
+          </center>
+          </div>
+      </div>
+  </div>
+    </div>
+    <div class="works">
         <div class="container">
+            <center><h1><span style="font-weight: 900">WORKS</span></h1></center><br>
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2><b>O Mnie</b></h2>
-                    <p class="lead"><b>Witaj</b> na mojej stronie. Mam na imię <b>Piotrek</b>, mieszkam w <b>Białymstoku</b> i moim zamiłowaniem jest <b>fotografia</b>. Wykonuję zdjęcia na różnych <b>imprezach okolicznościowych</b> oraz <b>zdjęcia pozowane</b>. Poniżej przedstawiam <b>Tobie</b> moje <b>portfolio</b>. <br>Jeżeli jesteś <b>zainteresowany(a)</b> współpracą napisz do <b>mnie</b> na <a href="https://www.facebook.com/PiFiPhoto" target="_blank"><b>Facebooku</b>.</a><br>Miłego oglądania :)</p>
-                </div>
+                <center>
+                    <ul class="menuG">
+                    <a href=""><li><span style="color: green">all</span></li></a>
+                    <a href=""><li>digital</li></a>
+                    <a href=""><li>graphic design</li></a>
+                    <a href=""><li>print</li></a>
+                </ul>
+                </center>
+                
             </div>
-            <!-- /.row -->
         </div>
-        <!-- /.container -->
-    </section>
-
-    
-    
-    <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
+       <div class="container-fluid mtop">
+  <div class="row">
+    <div class="col-xs-12 text-center "><a
+      href="#"><img src="img/P1.jpg" alt=""></a><a
+      href="#"><img src="img/P2.jpg" alt=""></a><a
+      href="#"><img src="img/P3.jpg" alt=""></a><a
+      href="#"><img src="img/P4.jpg" alt=""></a><a
+      href="#"><img src="img/P5.jpg" alt=""></a><a
+      href="#"><img src="img/P6.jpg" alt=""></a><a
+      href="#"><img src="img/P7.jpg" alt=""></a><a
+      href="#"><img src="img/P8.jpg" alt=""></a>
+      </div>
+  </div>
+<center><h4 class="mtop"><br>load more</h4></center>
+</div>
+    </div>
+    <div class="prices">
+         <div class="container">
+             <img src="img/stroke.png" alt="" class="floatL22" height="30px" width="1px"> <span style="font-weight: 300;"><h1>Prices</h1></span>
+             <div class="row">
+                 <div class="col-md-3 paddingBS bord1">
+                 <div class="bordtext">
+                <center> <h3><span style="font-weight: 300">One page website</span></h3></center> <br>
+                <ul>
+                      <li>Responsive web design</li>
+                      <li>1 page</li>
+                      <li>Friendly navigation</li>
+                      <li>Social media integration</li>
+                      <li>Editing tutorial</li>
+                      <li>Customization</li>
+                      <li>Optional extras</li>
+                  </ul>
+                  </div>
+                  <div class="cena">£119.00</div>
+                  
+             </div>
+             <div class="col-md-3 paddingBS bord2">
+                 <div class="bordtext">
+                  <center> <h3>GREEN PACKAGE</h3></center><br>
+                  <ul>
+                      <li>Responsive web design</li>
+                      <li>Up to 8 pages</li>
+                      <li>Friendly navigation</li>
+                      <li>Social media integration</li>
+                      <li>Editing tutorial</li>
+                      <li>Customization</li>
+                      <li>Motif / Logo design</li>
+                      <li>Stationery designed</li>
+                      <li>Gallery available</li>
+                      <li>Optional extras</li>
+                  </ul>
+                 </div>
+                 <div class="cena">£179.00</div>
+                 
+             </div>
+             <div class="col-md-3 paddingBS bord3">
+                 
+                 <center><span style="color: #8a8616; font-size: 12px">MOST POPULAR</span></center> 
+                  <div class="bordtext2">
+                  <center><h3 class="mth">GOLD PACKAGE</h3></center><br>
+                   <ul>
+                      <li>Responsive web design</li>
+                      <li>Up to 8 pages</li>
+                      <li>Friendly navigation</li>
+                      <li>Social media integration</li>
+                      <li>Editing tutorial</li>
+                      <li>Customization</li>
+                      <li>Motif / Logo design</li>
+                      <li>Stationery designed</li>
+                      <li>Gallery available</li>
+                      <li>Content Managment System</li>
+                      <li>Foundation SEO</li>
+                      <li>Optional extras</li>
+                  </ul>
+                 </div>
+                 <div class="cena">£249.00</div>
+                 
+             </div>
+             <div class="col-md-3 paddingBS bord4">
+                 <div class="bordtext3">
+                  <center> <h3>BEST SOLUTIONS</h3></center><br>
+                  <ul>
+                      <li>Responsive web design</li>
+                      <li>Unlimited pages</li>
+                      <li>Social media integration</li>
+                      <li>Editing tutorial</li>
+                      <li>Customization</li>
+                      <li>Foundation SEO</li>
+                      <li>Stationery designed</li>
+                      <li>Extra features</li>
+                      <li>Content Managment System</li>
+                      <li>E-Commerce funcionallity</li>
+                      <li>Optional extras</li>
+                  </ul>
+                 </div>
+                 <div class="cena2"><span style="font-size: 14px;">starts from <br></span>£369.00</div>
+                 
+             </div>
+             </div>
+             <div class="mtpo"><center>GET IN TOUCH</center></div>
+         </div>
+    </div>
+    <div id="element"></div>
+    <div class="proces">
         <div class="container">
             <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2><b>Portfolio</b></h2>
-                    <ul class="simplefilter">
-              
-                <li class="active" data-filter="all">Wszystkie</li>
-                <li data-filter="1">Portrety</li>
-                <li data-filter="2">Imprezy</li>
-                <li data-filter="3">Natura</li>
-                <li data-filter="4">Inne</li>
-            </ul>
-
-                    <hr class="small">
-                    <div class="filtr-container">
-                       
-                        
-                        
-                        <div class="col-md-6 filtr-item portfolio-item" data-category="3" data-sort="value">
-                            <a href="img/bigp/1.jpg" data-toggle="lightbox" data-gallery="natura" >
-                                <img src="img/portfolio-1.jpg" class="img-portfolio img-responsive">
-                            </a>
-                        </div>
-                        <div class="col-md-6 filtr-item portfolio-item" data-category="3" data-sort="value">
-                            <a href="img/bigp/4.jpg" data-toggle="lightbox" data-gallery="natura" >
-                                <img src="img/portfolio-4.jpg" class="img-portfolio img-responsive">
-                            </a>
-                        </div>
-                        
-                        <div class="col-md-6 filtr-item portfolio-item" data-category="2, 1" data-sort="value">
-                            <a href="img/bigp/5.jpg" data-toggle="lightbox" data-gallery="imprezy" >
-                                <img src="img/p5.jpg" class="img-portfolio img-responsive">
-                            </a>
-                        </div>
-                        
-                        <div class="col-md-6 filtr-item portfolio-item" data-category="2, 1" data-sort="value">
-                            <a href="img/bigp/7.jpg" data-toggle="lightbox" data-gallery="imprezy" >
-                                <img src="img/p7.jpg" class="img-portfolio img-responsive">
-                            </a>
-                        </div>
-                        
-                        <div class="col-md-6 filtr-item portfolio-item" data-category="4" data-sort="value">
-                            <a href="img/bigp/15.jpg" data-toggle="lightbox" data-gallery="inne" >
-                                <img src="img/p15.jpg" class="img-portfolio img-responsive">
-                            </a>
-                        </div>
-                        
-                        <div class="col-md-6 filtr-item portfolio-item" data-category="3" data-sort="value">
-                            <a href="img/bigp/14.jpg" data-toggle="lightbox" data-gallery="natura" >
-                                <img src="img/p14.jpg" class="img-portfolio img-responsive">
-                            </a>
-                        </div>
-                        
-                        <div class="col-md-6 filtr-item portfolio-item" data-category="2, 1" data-sort="value">
-                            <a href="img/bigp/8.jpg" data-toggle="lightbox" data-gallery="imprezy" >
-                                <img src="img/p8.jpg" class="img-portfolio img-responsive">
-                            </a>
-                        </div>
-                        
-                        <div class="col-md-6 filtr-item portfolio-item" data-category="2, 1" data-sort="value">
-                            <a href="img/bigp/12.jpg" data-toggle="lightbox" data-gallery="imprezy" >
-                                <img src="img/p12.jpg" class="img-portfolio img-responsive">
-                            </a>
-                        </div>
-                        
-                        <div class="col-md-6 filtr-item portfolio-item" data-category="2, 1" data-sort="value">
-                            <a href="img/bigp/9.jpg" data-toggle="lightbox" data-gallery="imprezy" >
-                                <img src="img/p9.jpg" class="img-portfolio img-responsive">
-                            </a>
-                        </div>
-                        
-                        <div class="col-md-6 filtr-item portfolio-item" data-category="4" data-sort="value">
-                            <a href="img/bigp/2.jpg" data-toggle="lightbox" data-gallery="inne" >
-                                <img src="img/portfolio-2.jpg" class="img-portfolio img-responsive">
-                            </a>
-                        </div>
-                        <div class="col-md-6 filtr-item portfolio-item" data-category="1" data-sort="value">
-                            <a href="img/bigp/6.jpg" data-toggle="lightbox" data-gallery="portrety" >
-                                <img src="img/p6.jpg" class="img-portfolio img-responsive">
-                            </a>
-                        </div>
-                         <div class="col-md-6 filtr-item portfolio-item" data-category="3" data-sort="value">
-                            <a href="img/bigp/3.jpg" data-toggle="lightbox" data-gallery="natura" >
-                                <img src="img/portfolio-3.jpg" class="img-portfolio img-responsive">
-                            </a>
-                        </div>
-                        
-                        <div class="col-md-6 filtr-item portfolio-item" data-category="2, 1" data-sort="value">
-                            <a href="img/bigp/10.jpg" data-toggle="lightbox" data-gallery="imprezy" >
-                                <img src="img/p10.jpg" class="img-portfolio img-responsive">
-                            </a>
-                        </div>
-                        
-                        <div class="col-md-6 filtr-item portfolio-item" data-category="1" data-sort="value">
-                            <a href="img/bigp/11.jpg" data-toggle="lightbox" data-gallery="portrety" >
-                                <img src="img/p11.jpg" class="img-portfolio img-responsive">
-                            </a>
-                        </div>
-                        
-                        <div class="col-md-6 filtr-item portfolio-item" data-category="2, 1" data-sort="value">
-                            <a href="img/bigp/13.jpg" data-toggle="lightbox" data-gallery="imprezy" >
-                                <img src="img/p13.jpg" class="img-portfolio img-responsive">
-                            </a>
-                        </div>
-                        
-                        
-                        
-                        
+                <div class="col-md-6">
+                     <section id="conference-timeline">
+    <h1 class="visible-xs visible-sm"><center>PROCESS</center></h1>
+    <div class="conference-center-line"></div>
+    <div class="conference-timeline-content">
+      <!-- Article -->
+      <div class="timeline-article">
+         <h2 class="process hidden-sm hidden-xs">PROCESS</h2>
+        <div class="content-right-container">
+          <div class="content-right">
+           <h3><b>WE TALK</b></h3>
+            <p>We start with a detailed discussion and a brief to understand your vision for the idea, gather requirements, and properly scope out your project timeline and pricing. We deliver a project document with all the details on time schedules, development plans and competitors analysis to begin with.. </p>
+          </div>
+        </div>
+        <div class="meta-date">
+          <span class="date">1</span>
+        </div>
+      </div>
+      <!-- // Article -->
+      
+      <!-- Article -->
+      <div class="timeline-article">
+        <div class="content-left-container">
+          <div class="content-left">
+           <h3><b>MAKING A BRIEF</b></h3>
+            <p>We start with a detailed discussion and a brief to understand your vision for the idea, gather requirements, and properly scope out your project timeline and pricing. We deliver a project document with all the details on time schedules, development plans and competitors analysis to begin with..</p>
+          </div>
+        </div>
+        <div class="meta-date">
+          <span class="date">2</span>
+        </div>
+      </div>
+      <!-- // Article -->
+      
+      <!-- Article -->
+      <div class="timeline-article">
+        <div class="content-right-container">
+          <div class="content-right">
+           <h3><b>DESIGN</b></h3>
+            <p>We start with a detailed discussion and a brief to understand your vision for the idea, gather requirements, and properly scope out your project timeline and pricing. We deliver a project document with all the details on time schedules, development plans and competitors analysis to begin with..</p>
+          </div>
+        </div>
+        <div class="meta-date">
+          <span class="date">3</span>
+        </div>
+      </div>
+      <div class="timeline-article">
+        <div class="content-left-container">
+          <div class="content-left">
+            <h3><b>PROTOTYPE</b></h3>
+            <p>We start with a detailed discussion and a brief to understand your vision for the idea, gather requirements, and properly scope out your project timeline and pricing. We deliver a project document with all the details on time schedules, development plans and competitors analysis to begin with..</p>
+          </div>
+        </div>
+        <div class="meta-date">
+          <span class="date">4</span>
+        </div>
+      </div>
+      <div class="timeline-article">
+        <div class="content-right-container">
+          <div class="content-right d5">
+           <h3><b>DEVELPOMENT & LAUNCH</b></h3>
+            <p>We start with a detailed discussion and a brief to understand your vision for the idea, gather requirements, and properly scope out your project timeline and pricing. We deliver a project document with all the details on time schedules, development plans and competitors analysis to begin with..</p>
+          </div>
+        </div>
+        <div class="meta-date">
+          <span class="date">5</span>
+        </div>
+      </div>
+      
+      <!-- // Article -->
+    </div>
+  </section>
+                </div>
+                <div class="col-md-6 mtpo mak">
+                    <div class="box">
+                        <img src="img/stroke2.png" alt="" class="floatL"><h3><b>YOU HAVE NOT FOUND THE PRICE FOR ONE<br>
+                        OF OUR SERVICES?</b></h3><br>
+                         <p>Nam quis felis facilisis, porta magna et, faucibus quam. Suspendisse finibus, nisl nec consequat vulputate, risus dolor eleifend mi, at mattis dolor leo et mi. Aenean enim lorem, interdum ac suscipit efficitur, convallis non nibh. Maecenas ante quam, eleifend at efficitur sed, tristique sed mi. Morbi mauris odio, tempus non enim cursus, condimentum semper quam. Maecenas pellentesque viverra odio, quis tincidunt odio condimentum vitae. Phasellus tempor tincidunt dolor eu varius. 
+                        </p><br>
+                        <b>ASK FOR A QUOTE</b>
                     </div>
+               <div class="box2">
+                   <img src="img/stroke2.png" alt="" class="floatL"><h3><b>ARE YOU DETERMINED ON ANY OF <br>
+THE PACKAGES?</b></h3><br>
+               <p>Aliquam sed sodales ipsum. Nam bibendum quam eu enim sollicitudin porttitor eget id eros. Suspendisse consectetur vestibulum condimentum. Vivamus gravida tortor vitae nunc elementum, sed lobortis arcu ultrices. Suspendisse vitae scelerisque lorem. Pellentesque justo sem, auctor quis faucibus a, ullamcorper ac erat. Etiam fringilla, diam id pulvinar ornare, enim augue eleifend sapien, et tincidunt libero elit in lacus. Vivamus sed lorem eu odio eleifend convallis. 
+</p><br>
+               <b>MAKE A BRIEF</b>
+               </div>
                 </div>
-                <!-- /.col-lg-10 -->
+                <div class="mtpo"></div>
             </div>
-            <!-- /.row -->
         </div>
-        <!-- /.container -->
-    </section>
-
-   
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-           <div id="contact"></div>
+    </div>
+    <div class="low">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Piotr Fijałkowski</strong>
-                    </h4>
-                    <p>Photography
-                        <br>Białystok</p>
-                    <ul class="list-unstyled up10">
-                        <li><i class="fa fa-phone fa-fw"></i> (+48) 732-243-898</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i>  PiotrFotografia@wp.pl
-                        </li>
-                    </ul>
-                    <br>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="https://www.facebook.com/PiFiPhoto/" target="_blank"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/p.f.photo/" target="_blank"><i class="fa fa-instagram fa-fw fa-3x"></i></a>
-                        </li>
-                    </ul>
-                    <hr class="small">
-                    <p class="text-muted">Copyright &copy; <a href="http://webmas.pl" target="_blank">WebMas.pl</a> 2017</p>
+                <div class="col-md-6 lowbudget"><span class="textali">DO YOU NEED LOW-BUDGET <br> PROJECT?</span></div>
+                <div class="col-md-6 juniors visible-sm visible-xs">
+                 <img src="img/stroke3.png" alt="" class="floatL2"><span style="font-weight: 900; font-size: 20px;">WORK WITH OUR JUNIORS</span>
+                <br><br>
+                <p class="siedem">Nam quis felis facilisis, porta magna et, faucibus quam. Suspendisse finibus, nisl nec consequat vulputate, risus dolor eleifend mi, at mattis dolor leo et mi. Aenean enim lorem, interdum ac suscipit efficitur, convallis non nibh. Maecenas ante quam, eleifend at efficitur sed, tristique sed mi. Morbi mauris odio, tempus non enim cursus, condimentum semper quam. Maecenas pellentesque viverra odio, quis tincidunt odio condimentum vitae. Phasellus tempor tincidunt dolor eu varius. Nullam rhoncus id ipsum nec luctus. Donec a luctus metus. Praesent arcu metus, pellentesque non risus vitae, interdum luctus risus. Integer magna eros, auctor non risus a, sollicitudin consequat velit.
+</p>
+               <br><b>GET IN TOUCH</b>
+               
                 </div>
             </div>
+            <div class="container ontop">
+                 <div class="row hidden-xs hidden-sm">
+                     <div class="col-md-6"></div>
+                     <div class="col-md-6 lowbu">
+                     <img src="img/stroke3.png" alt="" class="floatL2"><span style="font-weight: 900; font-size: 20px;">WORK WITH OUR JUNIORS</span>
+                <br><br>
+                <p class="siedem">Nam quis felis facilisis, porta magna et, faucibus quam. Suspendisse finibus, nisl nec consequat vulputate, risus dolor eleifend mi, at mattis dolor leo et mi. Aenean enim lorem, interdum ac suscipit efficitur, convallis non nibh. Maecenas ante quam, eleifend at efficitur sed, tristique sed mi. Morbi mauris odio, tempus non enim cursus, condimentum semper quam. Maecenas pellentesque viverra odio, quis tincidunt odio condimentum vitae. Phasellus tempor tincidunt dolor eu varius. Nullam rhoncus id ipsum nec luctus. Donec a luctus metus. Praesent arcu metus, pellentesque non risus vitae, interdum luctus risus. Integer magna eros, auctor non risus a, sollicitudin consequat velit.
+</p>
+               <br><b>GET IN TOUCH</b>
+                </div>
+                 </div>
+            </div>
         </div>
-        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
-    </footer>
-
+    </div>
+<div class="contact">
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col-md-6 contactL">
+            <div class="visible-xs visible-sm"><br>
+                <img src="img/stroke4.png" alt="" class="floatL2"><span style="font-weight: 700; font-size: 30px;">CONTACT</span>
+            <h1 class="mtopb">Let's talk</h1>
+            <br>
+           <div class="antyfloat">
+                <form action="">
+                Name <input type="text" class="contactF" > <br>
+                Name <input type="text" class="contactF"> <br>
+                Name <input type="text" class="contactF"> <br>
+                Name <input type="text" class="contactF"> <br>
+                Name <input type="text" class="contactF"> <br>
+                <input type="submit" value="SEND" class="contactsend">
+            </form>
+           </div>
+            
+            </div>
+        </div>
+        <div class="col-md-6 contactPr">
+            <div class="visible-xs visible-sm contactP">
+                
+                 <p>We would love to discuss your ideas and explore the opportunities of working together. Fill out the quick contact form or simply drop us a line to get the communications started.</p>
+            <div class="con">
+                <img src="img/tel.png" alt="" style="float: left; margin-right: 15px;">075 45675 2145 <br>
+                <img src="img/list.png" alt="" style="float: left; margin-right: 15px;">info@storkdesign.co.uk <br>
+                <img src="img/map.png" alt="" style="float: left; margin-right: 15px;">Bridgwater, Somerset, England <br>
+            </div>
+            <div class="con">
+                <img src="img/fb.png" alt="" style="float: left; margin-right: 15px;">
+                <img src="img/twitter.png" alt="" style="float: left; margin-right: 15px;">
+                <img src="img/ig.png" alt="" style="float: left; margin-right: 15px;">
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container ontop2  hidden-xs hidden-sm">
+        <div class="row">
+            <div class="col-md-6 mD10">
+                <img src="img/stroke4.png" alt="" class="floatL2"><span style="font-weight: 700; font-size: 30px;">CONTACT</span>
+            <h1 class="mtopb">Let's talk</h1>
+            <br>
+           <div class="antyfloat">
+                <form action="">
+                Name <input type="text" class="contactF" > <br>
+                Name <input type="text" class="contactF"> <br>
+                Name <input type="text" class="contactF"> <br>
+                Name <input type="text" class="contactF"> <br>
+                Name <input type="text" class="contactF"> <br>
+                <input type="submit" value="SEND" class="contactsend">
+            </form>
+           </div>
+            </div>
+            <div class="col-md-6 contactP ">
+             <p>We would love to discuss your ideas and explore the opportunities of working together. Fill out the quick contact form or simply drop us a line to get the communications started.</p>
+            <div class="con">
+                <img src="img/tel.png" alt="" style="float: left; margin-right: 15px;">075 45675 2145 <br>
+                <img src="img/list.png" alt="" style="float: left; margin-right: 15px;">info@storkdesign.co.uk <br>
+                <img src="img/map.png" alt="" style="float: left; margin-right: 15px;">Bridgwater, Somerset, England <br>
+            </div>
+            <div class="con">
+                <img src="img/fb.png" alt="" style="float: left; margin-right: 15px;">
+                <img src="img/twitter.png" alt="" style="float: left; margin-right: 15px;">
+                <img src="img/ig.png" alt="" style="float: left; margin-right: 15px;">
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+   <div class="footer">
+       <div class="container">
+           <div class="col-md-12">
+          <img src="img/logo.png" alt="" >
+       </div>
+       </div>
+   </div>
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/ekko-lightbox.js"></script>
-    <script src="js/jquery.filterizr.min.js"></script>
-    <script src="js/controls.js"></script>
+<script src="js/parallax.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script>
-        $(function() {
-            //Initialize filterizr with default options
-            $('.filtr-container').filterizr();
-        });
-    // Closes the sidebar menu
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
+<script>
+setTimeout(function(){
+       $('.counter').each(function() {
+  var $this = $(this),
+      countTo = $this.attr('data-count');
+  $({ countNum: $this.text()}).animate({
+    countNum: countTo
+  },
+
+  {
+      
+    duration: 3000,
+    easing:'linear',
+    step: function() {
+      $this.text(Math.floor(this.countNum));
+    },
+    complete: function() {
+      $this.text(this.countNum);
+      //alert('finished');
+    }
+
+  });  
     });
-    // Opens the sidebar menu
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-    // Scrolls to the selected menu item on the page
-    $(function() {
-        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-    //#to-top button appears after scrolling
-    var fixed = false;
-    $(document).scroll(function() {
-        if ($(this).scrollTop() > 250) {
-            if (!fixed) {
-                fixed = true;
-                // $('#to-top').css({position:'fixed', display:'block'});
-                $('#to-top').show("slow", function() {
-                    $('#to-top').css({
-                        position: 'fixed',
-                        display: 'block'
-                    });
-                });
-            }
-        } else {
-            if (fixed) {
-                fixed = false;
-                $('#to-top').hide("slow", function() {
-                    $('#to-top').css({
-                        display: 'none'
-                    });
-                });
-            }
-        }
-    });
-        //gallery
-        $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-    event.preventDefault();
-    $(this).ekkoLightbox();
+
+}, 500);
+ 
+</script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
 });
-
+</script>
+<script>
+    $(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+    var objectSelect = $("#change_navbar");
+    var objectPosition = objectSelect.offset().top;
+    if (scroll > objectPosition) {
+        $(".about").addClass("change");
+    } else {
+        $(".about").removeClass("change");
+    }
+});
     </script>
-
 </body>
 
 </html>
